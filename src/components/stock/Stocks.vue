@@ -11,6 +11,11 @@ export default {
   data() {
     return {};
   },
+  computed: {
+    stocks() {
+      return this.$store.getters.stocks;
+    },
+  },
 };
 </script>
 
